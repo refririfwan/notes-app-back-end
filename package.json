@@ -1,24 +1,24 @@
 {
   "name": "notes-app-back-end",
   "version": "1.0.0",
-  "description": "Learning Back End With NodeJs",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/refririfwan/notes-app-back-end.git"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
   },
-  "keywords": [
-    "NodeJs",
-    "hapi",
-    "back-end"
-  ],
-  "author": "refririfwan@student.ub.ac.id",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/refririfwan/notes-app-back-end/issues"
-  },
-  "homepage": "https://github.com/refririfwan/notes-app-back-end#readme"
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "nanoid": "^3.1.20"
+  }
 }
