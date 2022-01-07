@@ -1,0 +1,24 @@
+{
+  "name": "notes-app-back-end",
+  "version": "1.0.0",
+  "description": "Learning Back End With NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refririfwan/notes-app-back-end.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "hapi",
+    "back-end"
+  ],
+  "author": "refririfwan@student.ub.ac.id",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/refririfwan/notes-app-back-end/issues"
+  },
+  "homepage": "https://github.com/refririfwan/notes-app-back-end#readme"
+}
